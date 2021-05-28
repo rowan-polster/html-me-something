@@ -1,0 +1,193 @@
+
+.stars_png {
+    width: 100%;
+    height: 800px;
+    background: url('/images/stars_png.jpg');
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: whitesmoke
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 200px;
+    left: 16px;
+    font-size: 200px
+}
+
+.bottom-left-sub {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+    font-size: 50px
+}
+
+
+
+body {
+    background-image: linear-gradient(#07090c,#15233b);
+    
+    
+    
+}
+
+#page-break {
+    font-family: 'Lora', serif; 
+    color: rgb(255, 255, 184);
+    font-size: 25pt;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    color: rgba(247, 225, 178, 0.788);
+    font-size: 15pt;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-size: 100pt;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    color: lightgray;
+    font-size: 15pt;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+main {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+#quote {
+    font-size: 25pt;
+    color: #83b2e7
+
+}
+
+ul {
+    color: #83b2e7b6;
+    font-size: 15pt;
+    font-family: 'EB Garamond', serif;
+    
+}
+
+
+footer {
+    background-image: linear-gradient(#15233b,#2f4b7c);
+    color: rgb(255, 246, 164);
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#copyright {
+    font-size: 0.85rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.float-right {
+    display: block;
+    margin-left: 20px;
+    float: right;
+    width: 35%
+}
+
+figcaption {
+    display: block;
+    margin-left: 20px;
+    float: right;
+    color: whitesmoke;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {box-sizing: border-box;}
+
+.container2 {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.center {
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+  width: 100%;
+  height: auto;
+}
+
+.center2 {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.iveron {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 100%;
+    height: auto;
+}
+
+.meditation {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 150%;
+    height: 150%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0%; 
+  margin-left: 250px;
+  margin-right: 250px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 25px;
+  text-align: center;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
